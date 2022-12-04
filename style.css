@@ -375,7 +375,7 @@ main {
 /* Our_frirends ----------------------------------------------- */
 .our_friends {
     background-color: var(--color-light-l);
-    padding-top: 10%;
+   
 }
 .our_friends_container {
     max-width: 1200px;
@@ -386,6 +386,7 @@ main {
     gap: 2%;
     height: 788px;
     text-align: center;
+    
     
 }
 
@@ -432,6 +433,7 @@ grid-area: 1 / 1 / 1 / 6;
 .btn_get_container{
     grid-area: 3 / 1 / 4 / -1;
     margin: 2%;
+    margin: 10% 0;
     
 }
 .btn_get_container span {
@@ -453,8 +455,39 @@ color: #292929;
 }
 
 
+/* Help ------------------------------------------------------------- */
+.help {
+    background-color: var(--color-light-xl);
+    height: 431px;
+    margin-top: 10%;
+}
+.help_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.help_text {
+    text-align: center;
+}
+.help_row1 {
+    height: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.help_row2 {
+    height: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
 
 
+.helpcards {
+    width: auto;
+
+}
 
 
 footer {
